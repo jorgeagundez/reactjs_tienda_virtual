@@ -7,7 +7,7 @@ import Carrito from './components/Carrito';
 function App() {
   
   // Crear listado de productos (Array distructuring)
-  const [ productos, guardarProductos ] = useState([
+  const [ productos ] = useState([
     { id: 1, nombre: 'Camisa ReactJS', precio: 50},
     { id: 2, nombre: 'Camisa VueJS', precio: 40},
     { id: 3, nombre: 'Camisa NodeJS', precio: 30},

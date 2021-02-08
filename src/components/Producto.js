@@ -12,7 +12,7 @@ const Producto = ({producto, carrito, agregarProducto, productos}) => {
     }
 
     const eleminarProducto = id => {
-        const productos = carrito.filter(producto => producto.id != id);
+        const productos = carrito.filter(producto => producto.id !== id);
 
         // Colocar los productos en el state
         agregarProducto(productos);
